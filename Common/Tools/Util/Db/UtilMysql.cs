@@ -1,9 +1,9 @@
 ﻿//使用Mysql调用数据库
 #define IS_USE_MYSQL 
 //不使用Mysql调用数据库
-//#undef IS_USE_MYSQL
+#undef IS_USE_MYSQL
 #if IS_USE_MYSQL
-using MySql.Data.MySqlClient;
+//using MySql.Data.MySqlClient;
 #endif
 using System;
 using System.Collections.Generic;

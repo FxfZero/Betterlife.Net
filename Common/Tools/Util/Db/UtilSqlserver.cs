@@ -20,7 +20,7 @@ namespace Tools.Util.Db
         private static string ConnStr = 
                                         "server=(local);" + 
                                         "user id=sa;" +
-                                        "pwd=123.com;" +
+                                        "pwd=123456;" +
                                         "database={0}; " +
                                         "Trusted_Connection=yes;" +
                                         "connection timeout=30";//默认超时时间是30秒
